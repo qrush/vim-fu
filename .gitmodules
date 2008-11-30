@@ -10,3 +10,6 @@
 [submodule "vim-git"]
 	path = vim-git
 	url = git://github.com/tpope/vim-git.git
+[submodule "nerdtree"]
+	path = nerdtree
+	url = git://github.com/scrooloose/nerdtree.git
