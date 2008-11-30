@@ -1,7 +1,7 @@
 require 'rake'
 
 FOLDERS = %w(colors ftdetect ftplugin indent syntax doc plugin autoload)
-SCRIPTS = %w(nerdtree themes vim-cucumber vim-rails vim-git vim-haml)
+SCRIPTS = %w(personal nerdtree vim-cucumber vim-rails vim-git vim-haml vim-scratch)
 DOTVIM = "#{ENV['HOME']}/.vim"
 
 desc "Install the files into ~/.vim"

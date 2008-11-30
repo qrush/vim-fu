@@ -2,5 +2,4 @@ Attempting to combine the awesomeness of various vim plugins in one easy configu
 
 To install, simply use @rake install@
 
-If you want to add your own folders, plugins, or what have you, feel free! 
-Check out the Rakefile and go for it.
+If you want to add your own folders, plugins, or what have you, feel free! Just put whatever files you want in the @personal@ folder. Check out the @Rakefile@ and go for it.
