@@ -1,6 +1,6 @@
 require 'rake'
 
-FOLDERS = %w(colors ftdetect ftplugin indent syntax doc plugin)
+FOLDERS = %w(colors ftdetect ftplugin indent syntax doc plugin autoload)
 SCRIPTS = %w(nerdtree themes vim-cucumber vim-rails vim-git vim-haml)
 DOTVIM = "#{ENV['HOME']}/.vim"
 
