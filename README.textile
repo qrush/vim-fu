@@ -1,5 +1,12 @@
 Attempting to combine the awesomeness of various vim plugins in one easy configurable unit.
 
-To install, simply use @rake install@
+To install, there's a few rake tasks you should know:
+@rake preinstall@ Pulls down git submodules.
+@rake install@ Copies files over to ~/.vim
+@rake uninstall@ Deletes ~/.vim
+
+And some meta tasks:
+@rake full_install@ Preinstalls, uninstall, install.
+@rake reinstall@ Uninstall, install.
 
 If you want to add your own folders, plugins, or what have you, feel free! Just put whatever files you want in the @personal@ folder. Check out the @Rakefile@ and go for it.
