@@ -28,6 +28,3 @@ end
 
 desc "Blow everything out and try again."
 task :reinstall => [:uninstall, :install]
-
-desc "Full install of the scripts"
-task :full_install => [:preinstall, :reinstall]
