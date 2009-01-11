@@ -6,7 +6,7 @@ DOTVIM = "#{ENV['HOME']}/.vim"
 
 desc "Pull down submodules"
 task :preinstall do
-  puts `git submodule update --init`
+  puts `git submodule init`
   exec('git submodule update')
 end
 
