@@ -16,3 +16,6 @@
 [submodule "vim-scratch/plugin"]
 	path = vim-scratch/plugin
 	url = git://github.com/jkramer/vim-scratch.git
+[submodule "ack.vim"]
+	path = ack.vim
+	url = git://github.com/mileszs/ack.vim.git
