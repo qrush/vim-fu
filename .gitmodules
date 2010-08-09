@@ -19,3 +19,6 @@
 [submodule "ack.vim"]
 	path = ack.vim
 	url = git://github.com/mileszs/ack.vim.git
+[submodule "tabular"]
+	path = tabular
+	url = git://github.com/godlygeek/tabular.git

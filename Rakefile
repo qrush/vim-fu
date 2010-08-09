@@ -1,7 +1,7 @@
 require 'rake'
 
 FOLDERS = %w(colors ftdetect ftplugin indent syntax doc plugin autoload)
-SCRIPTS = %w(personal nerdtree vim-cucumber vim-rails vim-git vim-haml vim-scratch ack.vim)
+SCRIPTS = %w(personal tabular nerdtree vim-cucumber vim-rails vim-git vim-haml vim-scratch ack.vim)
 DOTVIM = "#{ENV['HOME']}/.vim"
 
 desc "Pull down submodules"
